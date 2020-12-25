@@ -1,9 +1,11 @@
 import React from "react";
+//Importing Pages
+import AboutUs from "./pages/AboutUs";
 
 function App() {
   return (
     <div className="App">
-      <h1>This is from intial setup project</h1>
+      <AboutUs />
     </div>
   );
 }
